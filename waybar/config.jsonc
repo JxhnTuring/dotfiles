@@ -1,0 +1,62 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 40,
+
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+
+    "modules-center": [
+        "custom/clock"
+    ],
+
+    "modules-right": [
+        "custom/gpu",
+        "cpu",
+        "memory",
+        "temperature",
+        "network"
+    ],
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "default": ""
+        }
+    },
+
+    "custom/clock": {
+        "exec": "date '+ %H:%M   %d/%m/%Y'",
+        "interval": 60
+    },
+
+    "cpu": {
+        "format": " {usage}%",
+        "interval": 2
+    },
+
+    "memory": {
+        "format": "󰍛 {used}GB"
+    },
+
+    "temperature": {
+        "exec": "sensors | grep 'Tctl' | awk '{print $2}'",
+        "interval": 2
+    },
+
+    "custom/gpu": {
+        "exec": "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits",
+        "interval": 2
+    },
+
+    "network": {
+        "format-wifi": " {signalStrength}%",
+        "format-ethernet": "󰈀 ETH",
+        "format-disconnected": "⚠ OFF"
+    }
+}
