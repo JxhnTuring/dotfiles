@@ -330,6 +330,11 @@ fastfectch
 cerramos seccion con Super(Windows)+M
 
 ## Personalizacion del grub 
+Copiamos wallpaper
+```
+cp dotfiles/Wallpaper .
+```
+Instalamos el tema de grub
 ```
 git clone https://github.com/vinceliuice/grub2-themes.git
 cd grub2-themes
@@ -355,7 +360,7 @@ Abrimos otra terminal
 awww img Wallpapers/wallpaper.png
 ```
 
-### Configuracion final del sdd
+### Configuracion final del sddm
 ```
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
 ```
