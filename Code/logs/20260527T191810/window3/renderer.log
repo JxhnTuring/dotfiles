@@ -1,3 +1,0 @@
-2026-05-27 20:20:02.641 [info] Started local extension host with pid 52125.
-2026-05-27 20:20:03.283 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
-2026-05-27 20:20:03.486 [info] Settings Sync: Account status changed from uninitialized to unavailable

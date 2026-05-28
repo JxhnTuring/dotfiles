@@ -1,9 +1,0 @@
-2026-05-27 19:18:10.754 [info] StorageMainService: creating application shared storage
-2026-05-27 19:18:10.805 [info] [shared storage] Creating shared storage database at '/home/jxhn/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: true)
-2026-05-27 19:18:10.805 [info] [shared storage] Initializing fallback application storage (path: /home/jxhn/.config/Code/User/globalStorage/state.vscdb)
-2026-05-27 19:18:10.814 [info] [shared storage] Fallback application storage initialized with 3 items
-2026-05-27 19:18:10.815 [info] update#setState idle
-2026-05-27 19:18:40.816 [info] update#setState checking for updates
-2026-05-27 19:18:41.013 [info] update#setState available for download
-2026-05-27 20:20:04.615 [info] Extension host with pid 52125 exited with code: 0, signal: unknown.
-2026-05-27 20:20:06.767 [info] Extension host with pid 50377 exited with code: 0, signal: unknown.

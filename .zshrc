@@ -1,4 +1,2 @@
-ZSH_THEME=""
-eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/hul10.omp.json)"
+eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/hul10.omp.json)"
 fastfetch
-
