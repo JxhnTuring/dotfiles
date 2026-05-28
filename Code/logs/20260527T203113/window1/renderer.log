@@ -1,0 +1,15 @@
+2026-05-27 20:31:13.884 [info] Started local extension host with pid 2375.
+2026-05-27 20:31:14.808 [error] [Extension Host] (node:2375) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-27 20:31:14.909 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-27 20:31:15.300 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-05-27 20:31:17.531 [info] [perf] Render performance baseline is 18ms
+2026-05-27 20:31:19.909 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-27 20:49:16.126 [error] spawn truecolor ENOENT: Error: spawn truecolor ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-05-27 20:51:19.866 [error] spawn truecolor ENOENT: Error: spawn truecolor ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)

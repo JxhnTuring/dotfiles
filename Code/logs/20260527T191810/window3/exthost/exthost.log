@@ -1,0 +1,20 @@
+2026-05-27 20:20:03.105 [info] Extension host with pid 52125 started
+2026-05-27 20:20:03.175 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-27 20:20:03.195 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-27 20:20:03.244 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-27 20:20:03.252 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-27 20:20:03.288 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-27 20:20:03.354 [info] Eager extensions activated
+2026-05-27 20:20:03.374 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-27 20:20:03.376 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-27 20:20:04.554 [info] Extension host terminating: received terminate message from renderer
+2026-05-27 20:20:04.614 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at new YI (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:151655)
+	at i._remoteCall (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:157707)
+	at r.<computed>.s.charCodeAt.r.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:154502)
+	at ig.resolveProxy (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:499:81404)
+	at Object.resolveProxy (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:643:24927)
+	at useProxySettings (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:208:16)
+	at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:145:13
+	at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:1038:13 
+2026-05-27 20:20:04.614 [info] Extension host with pid 52125 exiting with code 0

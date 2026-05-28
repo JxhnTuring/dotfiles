@@ -1,0 +1,140 @@
+* {
+    border: none;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 11px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+/* ================================= */
+/* DOTS */
+/* ================================= */
+
+#custom-arch,
+#workspaces,
+#clock,
+#cpu,
+#memory,
+#network,
+#custom-gpu {
+
+    background: #1e1e2e;
+
+    color: #cdd6f4;
+
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+    margin-left: 3px;
+    margin-right: 3px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border-radius: 14px;
+
+    border: 1px solid #313244;
+}
+
+/* ================================= */
+/* ARCH */
+/* ================================= */
+
+#custom-arch {
+
+    color: #89b4fa;
+
+    font-size: 14px;
+
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* ================================= */
+/* WORKSPACES */
+/* ================================= */
+
+#workspaces {
+
+    padding: 2px 4px;
+}
+
+#workspaces button {
+
+    min-width: 24px;
+    min-height: 24px;
+
+    margin-left: 2px;
+    margin-right: 2px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+    border-radius: 12px;
+
+    background: #313244;
+
+    color: #cdd6f4;
+
+    transition: all 0.15s ease;
+}
+
+#workspaces button.active {
+
+    background: #89b4fa;
+
+    color: #1e1e2e;
+}
+
+#workspaces button.empty {
+
+    opacity: 0.4;
+}
+
+#workspaces button:hover {
+
+    background: #585b70;
+}
+
+/* ================================= */
+/* CLOCK */
+/* ================================= */
+
+#clock {
+    color: #f9e2af;
+}
+
+/* ================================= */
+/* CPU */
+/* ================================= */
+
+#cpu {
+    color: #fab387;
+}
+
+/* ================================= */
+/* RAM */
+/* ================================= */
+
+#memory {
+    color: #a6e3a1;
+}
+
+/* ================================= */
+/* NETWORK */
+/* ================================= */
+
+#network {
+    color: #89dceb;
+}
+
+/* ================================= */
+/* GPU */
+/* ================================= */
+
+#custom-gpu {
+    color: #f38ba8;
+}
